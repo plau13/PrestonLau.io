@@ -12,6 +12,9 @@
   ],
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=18"
+  },
   "browserslist": "> 0.25%, not dead",
   "resolutions": {
     "graphql": "15.8.0",
@@ -23,12 +26,13 @@
   },
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "cf:install": "bash scripts/cloudflare-install.sh",
     "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "prepare": "husky install",
+    "prepare": "node -e \"if (process.env.CI || process.env.CF_PAGES) process.exit(0); require('child_process').execSync('husky install', { stdio: 'inherit' })\"",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
@@ -83,6 +87,7 @@
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "wrangler": "^4.14.0"
   }
 }
