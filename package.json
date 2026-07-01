@@ -11,7 +11,12 @@
     "gatsby"
   ],
   "license": "MIT",
+  "packageManager": "yarn@1.22.22",
   "browserslist": "> 0.25%, not dead",
+  "resolutions": {
+    "graphql": "15.8.0",
+    "postcss": "8.4.31"
+  },
   "overrides": {
     "graphql": "15.8.0",
     "postcss": "8.4.31"
