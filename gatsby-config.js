@@ -7,7 +7,6 @@ module.exports = {
       'Preston Lau is a Senior Technical Success Manager at Qualtrics who helps enterprise companies close experience gaps and builds AI-powered products including Vett and SoulScribe.',
     siteUrl: 'https://prestonlau.io',
     image: '/og.png',
-    twitterUsername: '@_PLAUsible',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

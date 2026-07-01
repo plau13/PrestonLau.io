@@ -11,10 +11,6 @@ module.exports = {
       url: 'https://www.linkedin.com/in/preston-d-lau/',
     },
     {
-      name: 'Twitter',
-      url: 'https://x.com/_PLAUsible',
-    },
-    {
       name: 'Instagram',
       url: 'https://www.instagram.com/p_lau13/',
     },
