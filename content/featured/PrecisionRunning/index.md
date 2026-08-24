@@ -1,11 +1,18 @@
 ---
 date: '2025-01-01'
-order: 4
+order: 5
 title: 'Precision Running'
-tech:
+category: 'E-commerce / Apparel'
+stack:
   - Apparel
   - E-commerce
   - Product Design
+mediaType: placeholder
+mediaLabel: Storefront coming soon
+problem: |
+  Performance running gear for male runners with larger chests is underserved — support apparel is marketed almost exclusively to women, leaving a real product gap.
+whatIBuilt: |
+  Self-funded apparel brand concept: product design, e-commerce planning, and brand positioning for performance gear that breaks that stigma.
+result: |
+  Brand in development — product design and go-to-market strategy underway; site launch planned.
 ---
-
-Self-funded running apparel brand — performance gear for male runners with larger chests, breaking the stigma that support gear is only marketed to women.

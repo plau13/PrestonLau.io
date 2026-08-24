@@ -2,14 +2,21 @@
 date: '2024-01-01'
 order: 1
 title: 'Vett'
-github: 'https://github.com/plau13/legal_mvp'
+category: 'AI / Legal Tech'
 external: 'https://vetthq.com'
-tech:
+stack:
   - ABA-Compliant Audit Trails
   - Hierarchical RAG
+  - Claude API
   - LLM Orchestration
   - Python
   - Vector Search
+mediaType: placeholder
+mediaLabel: Product demo coming soon
+problem: |
+  Small and mid-size law firms spend hours on manual conflict checks — high-effort, error-prone work that scales poorly and creates compliance risk under ABA guidelines.
+whatIBuilt: |
+  Founder-built MVP with hierarchical RAG for document retrieval, LLM orchestration for screening workflows, and ABA-compliant audit trails so every AI-assisted decision is logged and defensible. Integrated vector search and Python backend for production-grade conflict screening.
+result: |
+  Live product at vetthq.com. Running pilot conversations with Utah law firms; moving from discovery toward paid pilots as a solo founder alongside a full-time role.
 ---
-
-AI-powered conflict screening platform for law firms. Founder-built MVP to automate high-effort legal workflows.

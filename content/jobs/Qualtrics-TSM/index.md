@@ -3,7 +3,7 @@ date: '2025-01-01'
 title: 'Senior Technical Success Manager'
 company: 'Qualtrics'
 location: 'Provo, UT'
-range: 'January 2025 - Present'
+range: 'January 2025 — July 2026'
 url: 'https://www.qualtrics.com/'
 ---
 

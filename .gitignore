@@ -1,11 +1,23 @@
-# Project dependencies
-.cache
+# Dependencies
 node_modules
-yarn-error.log
-package-lock.json
+.pnp
+.pnp.js
 
-# Build directory
-/public
+# Next.js
+.next
+out
+
+# Legacy Gatsby
+.cache
+public/sw.js
+public/workbox-*
+
+# Misc
 .DS_Store
+*.pem
+.env*.local
+npm-debug.log*
+yarn-error.log
 
-.vscode/
+# Husky
+.husky/_

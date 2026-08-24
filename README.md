@@ -1,41 +1,38 @@
 # prestonlau.io
 
-Personal website for Preston Lau — built with [Gatsby](https://www.gatsbyjs.org/).
+Personal portfolio for Preston Lau — built with Next.js, deployed to Cloudflare.
 
-## Setup
+## Develop
 
-1. Install dependencies
+```bash
+npm install
+npm run dev
+```
 
-   ```sh
-   npm install
-   ```
+Open [http://localhost:3000](http://localhost:3000).
 
-2. Start the development server
+## Build & deploy
 
-   ```sh
-   npm start
-   ```
+```bash
+npm run build    # outputs to out/
+npm run deploy   # build + wrangler deploy
+```
 
-3. Build for production
+Or manually:
 
-   ```sh
-   npm run build
-   npm run serve
-   ```
+```bash
+npx wrangler deploy
+```
 
 ## Content
 
-- **Config:** `src/config.js` — email, social links, nav
-- **Sections:** `src/components/sections/` — hero, about, contact
-- **Experience:** `content/jobs/` — markdown job entries
-- **Projects:** `content/featured/` and `content/projects/` — markdown project entries
+- **Featured projects:** `content/featured/*/index.md`
+- **Experience:** `content/jobs/*/index.md`
+- **Lessons:** `content/lessons/*.md`
 
-## Assets to add
+## Stack
 
-| File | Path |
-|------|------|
-| Headshot | `src/images/plau.jpg` |
-| Favicon | `src/images/logo.png` |
-| Social preview | `static/og.png` |
-| Resume | `static/Preston_Lau_Resume.pdf` |
-| Project screenshots | `content/featured/*/cover.png` |
+- Next.js 14 (static export)
+- styled-components
+- gray-matter + remark
+- Cloudflare Workers (static assets via wrangler)
