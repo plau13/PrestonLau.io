@@ -1,9 +1,9 @@
 ---
-date: '2023-01-01'
+date: '2022-04-01'
 title: 'Technical Account Manager, Financial Services & Insurance'
 company: 'Qualtrics'
 location: 'Provo, UT'
-range: 'January 2023 to December 2024'
+range: 'April 2022 to May 2024'
 url: 'https://www.qualtrics.com/'
 ---
 
