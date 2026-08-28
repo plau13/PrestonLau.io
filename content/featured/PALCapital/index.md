@@ -8,12 +8,14 @@ stack:
   - Property Management
   - Real Estate
   - S-Corp Operations
-mediaType: placeholder
-mediaLabel: Portfolio overview coming soon
+mediaType: image
+screenshot: /images/projects/pal-capital-logo.png
+mediaLabel: PAL Capital logo
+mediaFit: contain
 problem: |
-  Building a cash-flow-focused rental portfolio requires disciplined underwriting and tenant operations — not just buying properties, but running them as a business.
+  Building a cash-flow-focused rental portfolio requires disciplined underwriting and tenant operations, not just buying properties, but running them as a business.
 whatIBuilt: |
   Co-owned residential rental portfolio with structured underwriting, property management workflows, and S-corp operations for long-term asset strategy.
 result: |
-  First property at 100% occupancy while underwriting the next deal — operator mindset applied outside tech.
+  First property at 100% occupancy while underwriting the next deal. Operator mindset applied outside tech.
 ---

@@ -14,6 +14,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "preview": "npm run build && npx serve out -p 3000",
     "start": "next start",
     "deploy": "npm run build && npx wrangler deploy",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",

@@ -11,10 +11,12 @@ stack:
   - LLM Orchestration
   - Python
   - Vector Search
-mediaType: placeholder
-mediaLabel: Product demo coming soon
+mediaType: image
+screenshot: /images/projects/vett-conflict-check.png
+mediaLabel: Vett conflict-check interface
+mediaFit: contain
 problem: |
-  Small and mid-size law firms spend hours on manual conflict checks — high-effort, error-prone work that scales poorly and creates compliance risk under ABA guidelines.
+  Small and mid-size law firms spend hours on manual conflict checks: high-effort, error-prone work that scales poorly and creates compliance risk under ABA guidelines.
 whatIBuilt: |
   Founder-built MVP with hierarchical RAG for document retrieval, LLM orchestration for screening workflows, and ABA-compliant audit trails so every AI-assisted decision is logged and defensible. Integrated vector search and Python backend for production-grade conflict screening.
 result: |

@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 const Frame = styled.div`
+  position: relative;
+  width: 100%;
   aspect-ratio: 16 / 10;
   background: var(--bg-muted);
   border: 1px solid var(--border);
@@ -33,7 +35,7 @@ const DiagramPlaceholder = styled(Placeholder)`
   background: linear-gradient(135deg, var(--bg-muted) 0%, var(--bg-surface) 100%);
 `;
 
-const LoomEmbed = styled.iframe`
+const MediaEmbed = styled.iframe`
   width: 100%;
   height: 100%;
   min-height: 280px;
@@ -45,11 +47,20 @@ export default function CaseStudyMedia({
   mediaLabel,
   mediaUrl,
   screenshot,
+  mediaFit = 'contain',
 }) {
   if (mediaType === 'loom' && mediaUrl) {
     return (
       <Frame>
-        <LoomEmbed src={mediaUrl} title={mediaLabel || 'Product demo'} allowFullScreen />
+        <MediaEmbed src={mediaUrl} title={mediaLabel || 'Product demo'} allowFullScreen />
+      </Frame>
+    );
+  }
+
+  if (mediaType === 'pdf' && mediaUrl) {
+    return (
+      <Frame>
+        <MediaEmbed src={mediaUrl} title={mediaLabel || 'Document preview'} />
       </Frame>
     );
   }
@@ -61,7 +72,7 @@ export default function CaseStudyMedia({
           src={screenshot}
           alt={mediaLabel || 'Project screenshot'}
           fill
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: mediaFit, objectPosition: 'center' }}
         />
       </Frame>
     );

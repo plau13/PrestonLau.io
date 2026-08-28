@@ -72,11 +72,7 @@ const Company = styled.a`
 export default function Experience({ jobs }) {
   return (
     <Section id="experience">
-      <SectionHeading
-        title="Experience"
-        subtitle="Five years at Qualtrics — from support to senior technical success, and account executive starting August 2026."
-        wide
-      />
+      <SectionHeading title="Experience" wide />
       <Timeline>
         {jobs.map((job, i) => (
           <Item key={job.slug} $highlight={i === 0}>

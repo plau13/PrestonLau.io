@@ -11,12 +11,14 @@ stack:
   - Supabase
   - Tailwind CSS
   - TypeScript
-mediaType: placeholder
-mediaLabel: Product demo coming soon
+mediaType: image
+screenshot: /images/projects/soulscribe-habits.png
+mediaLabel: SoulScribe habits dashboard
+mediaFit: contain
 problem: |
-  Spiritual and reflective journaling apps often compromise privacy or ship bloated UX — users want a calm, private space without their inner life becoming ad inventory.
+  Spiritual and reflective journaling apps often compromise privacy or ship bloated UX. Users want a calm, private space without their inner life becoming ad inventory.
 whatIBuilt: |
-  End-to-end product: React Native mobile app (Expo), Next.js web surface, Supabase backend, shadcn/ui components. Privacy-first architecture with lean scope — built to ship, not to pitch.
+  End-to-end product: React Native mobile app (Expo), Next.js web surface, Supabase backend, shadcn/ui components. Privacy-first architecture with lean scope, built to ship, not to pitch.
 result: |
   Shipped to real users at soulscribe.info. Demonstrates full-stack execution from mobile to web with a modern TypeScript stack.
 ---

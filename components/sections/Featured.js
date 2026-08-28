@@ -116,7 +116,7 @@ export default function Featured({ projects }) {
     <Section id="projects">
       <SectionHeading
         title="Work"
-        subtitle="Case studies — problem, what I built, and results."
+        subtitle="Case studies: problem, what I built, and results."
         wide
       />
       <List>
@@ -171,6 +171,18 @@ export default function Featured({ projects }) {
                     </Button>
                   </Links>
                 )}
+                {project.mediaType === 'pdf' && project.mediaUrl && (
+                  <Links>
+                    <Button
+                      href={project.mediaUrl}
+                      variant="ghost"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View full deck
+                    </Button>
+                  </Links>
+                )}
               </ContentCol>
 
               <MediaCol>
@@ -179,6 +191,7 @@ export default function Featured({ projects }) {
                   mediaLabel={project.mediaLabel}
                   mediaUrl={project.mediaUrl}
                   screenshot={project.screenshot}
+                  mediaFit={project.mediaFit || 'cover'}
                 />
               </MediaCol>
             </CaseStudy>

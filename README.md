@@ -1,6 +1,6 @@
 # prestonlau.io
 
-Personal portfolio for Preston Lau — built with Next.js, deployed to Cloudflare.
+Personal portfolio for Preston Lau, built with Next.js, deployed to Cloudflare.
 
 ## Develop
 

@@ -1,9 +1,9 @@
 ---
 date: '2020-08-01'
-title: 'Corporate Intern – Fulfillment and Engagement'
-company: 'BYU Athletics Corporate Sponsorship Team'
+title: 'Corporate Sponsorship, BYU Athletics'
+company: 'Brigham Young University'
 location: 'Provo, UT'
-range: 'August 2020 - April 2022'
+range: 'August 2020 to April 2022'
 url: 'https://byucougars.com/'
 ---
 

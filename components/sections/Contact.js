@@ -44,7 +44,7 @@ export default function Contact() {
     <Wrap id="contact">
       <Title>Get in touch</Title>
       <Text>
-        Open to conversations with recruiters, collaborators, and founders — whether it&apos;s AI
+        Open to conversations with recruiters, collaborators, and founders, whether it&apos;s AI
         product work, enterprise CS leadership, or what I&apos;m building next.
       </Text>
       <Button href={`mailto:${siteConfig.email}`}>Say hello</Button>

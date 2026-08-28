@@ -78,7 +78,7 @@ export default function Lessons({ lessons }) {
     <Section id="lessons">
       <SectionHeading
         title="Mistakes I've made"
-        subtitle="Broad lessons from building — themes, not highlight reels."
+        subtitle="Broad lessons from building: themes, not highlight reels."
       />
       <List>
         {lessons.map((lesson) => (
