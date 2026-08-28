@@ -42,9 +42,6 @@ export const metadata = {
     description: siteConfig.description,
     images: ['/og.png'],
   },
-  icons: {
-    icon: '/favicon-32x32.png',
-  },
 };
 
 export default function RootLayout({ children }) {
