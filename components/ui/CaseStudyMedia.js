@@ -6,9 +6,10 @@ import Image from 'next/image';
 const Frame = styled.div`
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 10;
-  background: var(--bg-muted);
-  border: 1px solid var(--border);
+  aspect-ratio: ${({ $aspectRatio }) => $aspectRatio || '16 / 10'};
+  background: ${({ $background }) => $background || 'var(--bg-muted)'};
+  border: 1px solid
+    ${({ $background }) => ($background === '#000000' ? '#000000' : 'var(--border)')};
   border-radius: var(--radius);
   overflow: hidden;
   display: flex;
@@ -48,6 +49,8 @@ export default function CaseStudyMedia({
   mediaUrl,
   screenshot,
   mediaFit = 'contain',
+  mediaBackground,
+  mediaAspectRatio,
 }) {
   if (mediaType === 'loom' && mediaUrl) {
     return (
@@ -67,7 +70,7 @@ export default function CaseStudyMedia({
 
   if (mediaType === 'image' && screenshot) {
     return (
-      <Frame>
+      <Frame $background={mediaBackground} $aspectRatio={mediaAspectRatio}>
         <Image
           src={screenshot}
           alt={mediaLabel || 'Project screenshot'}

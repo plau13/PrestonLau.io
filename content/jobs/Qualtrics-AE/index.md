@@ -1,10 +1,10 @@
 ---
 date: '2026-08-01'
-title: 'Account Executive'
+title: 'Account Executive, Financial Services & Insurance'
 company: 'Qualtrics'
-location: 'Salt Lake City, UT'
+location: 'Provo, UT'
 range: 'August 2026 to Present'
 url: 'https://www.qualtrics.com/'
 ---
 
-- New-business Account Executive covering financial services institutions: banks, credit unions, and insurance.
+- Own full-cycle revenue for $2B ARR of financial services companies spanning net-new acquisition and expansion

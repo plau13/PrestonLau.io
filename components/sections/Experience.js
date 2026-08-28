@@ -69,6 +69,12 @@ const Company = styled.a`
   }
 `;
 
+const CompanyName = styled.span`
+  font-family: var(--font-serif);
+  font-size: var(--fz-lg);
+  color: var(--text-primary);
+`;
+
 export default function Experience({ jobs }) {
   return (
     <Section id="experience">
@@ -80,9 +86,13 @@ export default function Experience({ jobs }) {
               <span>{job.range}</span>
               <span>{job.location}</span>
             </Meta>
-            <Company href={job.url} target="_blank" rel="noopener noreferrer">
-              {job.company}
-            </Company>
+            {job.url ? (
+              <Company href={job.url} target="_blank" rel="noopener noreferrer">
+                {job.company}
+              </Company>
+            ) : (
+              <CompanyName>{job.company}</CompanyName>
+            )}
             <Role>{job.title}</Role>
             <Prose html={job.html} />
           </Item>

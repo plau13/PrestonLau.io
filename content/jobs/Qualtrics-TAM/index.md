@@ -1,10 +1,11 @@
 ---
-date: '2022-04-01'
-title: 'Technical Account Manager'
+date: '2023-01-01'
+title: 'Technical Account Manager, Financial Services & Insurance'
 company: 'Qualtrics'
 location: 'Provo, UT'
-range: 'April 2022 to May 2024'
+range: 'January 2023 to December 2024'
 url: 'https://www.qualtrics.com/'
 ---
 
-- Managed a $2.1M book of business across financial services and insurance accounts, achieving 105% YoY growth in expansion and renewals
+- Managed a $6.1M book of business, achieving 120% YoY growth through strategic renewals and expansions
+- Drove $2M+ in consumption-based cloud revenue for a newly established support team within the first year

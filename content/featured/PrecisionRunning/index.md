@@ -10,7 +10,7 @@ stack:
 mediaType: image
 screenshot: /images/projects/precision-running-cover.png
 mediaLabel: Precision Running brand cover
-mediaFit: contain
+mediaFit: cover
 problem: |
   Performance running gear for male runners with larger chests is underserved. Support apparel is marketed almost exclusively to women, leaving a real product gap.
 whatIBuilt: |

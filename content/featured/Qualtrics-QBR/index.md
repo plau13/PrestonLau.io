@@ -1,20 +1,22 @@
 ---
 date: '2025-03-01'
 order: 3
-title: 'Qualtrics QBR Builder'
+title: 'Qualtrics Internal AI Tooling'
 category: 'Internal AI / Enterprise'
 stack:
   - Claude API
+  - Agentic Frameworks
   - LLM Orchestration
-  - Prompt Engineering
+  - Salesforce
+  - Gainsight
   - Customer Success
 mediaType: pdf
 mediaUrl: /slides/qbr-deck-builder.pdf
 mediaLabel: Sample QBR deck output
 problem: |
-  Customer Success teams spend ~5 hours per user per week building QBR decks: repetitive, manual work that pulls TSMs away from strategic client relationships.
+  GTM teams across Services spent hours each week assembling account context manually. QBR prep, expansion research, and CRM updates pulled reps away from clients, while meeting notes, news signals, and account data lived in disconnected systems.
 whatIBuilt: |
-  AI-powered QBR deck builder as part of an AI Center of Excellence I founded within Qualtrics Customer Success. LLM orchestration turns client data and templates into draft decks; designed for org-wide adoption, not a one-off hackathon demo.
+  Internal AI tooling I built after founding the AI Center of Excellence within GTM. The flagship workflow is an AI-powered expansion opportunity builder on agentic frameworks. The QBR deck builder shown here is one example: LLM orchestration turns client data and templates into draft decks. The broader system uploads enriched account data into Salesforce and Gainsight, surfacing intelligence from meetings, news articles, and external signals so CS and Sales reps can tie insights back to qualified buyers and expansion opportunities.
 result: |
-  Adopted org-wide across Customer Success. Tools from the CoE hackathon became production workflows used by 900+ employees, reclaiming hours of manual deck work each week.
+  Adopted by 3K+ employees across all of Services, saving ~5 hours/user/week across the suite. Production workflows replaced manual prep and gave GTM teams a live view of account health tied to revenue motion.
 ---

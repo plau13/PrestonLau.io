@@ -13,8 +13,8 @@ stack:
   - TypeScript
 mediaType: image
 screenshot: /images/projects/soulscribe-habits.png
-mediaLabel: SoulScribe habits dashboard
-mediaFit: contain
+mediaLabel: SoulScribe wordmark
+mediaFit: cover
 problem: |
   Spiritual and reflective journaling apps often compromise privacy or ship bloated UX. Users want a calm, private space without their inner life becoming ad inventory.
 whatIBuilt: |

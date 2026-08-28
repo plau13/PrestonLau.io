@@ -192,6 +192,8 @@ export default function Featured({ projects }) {
                   mediaUrl={project.mediaUrl}
                   screenshot={project.screenshot}
                   mediaFit={project.mediaFit || 'cover'}
+                  mediaBackground={project.mediaBackground}
+                  mediaAspectRatio={project.mediaAspectRatio}
                 />
               </MediaCol>
             </CaseStudy>
