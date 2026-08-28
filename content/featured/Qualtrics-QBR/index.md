@@ -11,7 +11,7 @@ stack:
   - Gainsight
   - Customer Success
 mediaType: pdf
-mediaUrl: /slides/qbr-deck-builder.pdf
+mediaUrl: /slides/qbr-deck-builder-2025-03-01.pdf
 mediaLabel: Sample QBR deck output
 problem: |
   GTM teams across Services spent hours each week assembling account context manually. QBR prep, expansion research, and CRM updates pulled reps away from clients, while meeting notes, news signals, and account data lived in disconnected systems.
