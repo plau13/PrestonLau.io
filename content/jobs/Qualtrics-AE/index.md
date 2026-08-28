@@ -7,4 +7,4 @@ range: 'August 2026 to Present'
 url: 'https://www.qualtrics.com/'
 ---
 
-- Own full-cycle revenue for $2B ARR of financial services companies spanning net-new acquisition and expansion
+- Own full-cycle revenue for financial services companies of $2B ARR spanning net-new acquisition and expansion
